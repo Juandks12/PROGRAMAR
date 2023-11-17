@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Calculadora</title>
+		<script>
+			let numero1 = 0
+			let numero2 = 0
+			let usuario = 0
+			numero1 = prompt("Ingrese la primera parte de la operación")
+			numero2 = prompt("Ingrese la segunda parte de la operación")
+			usuario = prompt("Elige el tipo de operación a realizar; 1 para suma, 2 para resta, 3 para multiplicación y 4 para división")
+			//Operaciones
+			if(usuario == 1){
+                alert("El resultado es " + (numero1 + numero2))
+            }
+            //La suma por alguna razón no sirve, verificar luego
+            if(usuario == 2){
+                alert("El resultado es " + (numero1-numero2))
+            }
+            if(usuario == 3){
+                alert("El resultado es " + (numero1*numero2))
+            }
+            if(usuario == 4){
+                alert("El resultado es " + (numero1/numero2))
+            }  
+		</script>
+		
+	</head>
+	<body>
+		<h1>Calculadora</h1>
+	</body>
+</html>
